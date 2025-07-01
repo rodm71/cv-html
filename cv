@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Rodolphe MICHEL</title>
+
+    <style>
+        header {
+            font-size: large;
+            display: flex;
+            padding: 10px;
+            background-color:#D1E0F8;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            background-color: #D1E0F8;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto; 
+            padding: 20px;
+        }
+
+        .intro {
+            font-style: italic;
+        }
+
+        .contenu {
+            display: flex;
+        }
+
+        .experiences {
+
+        }
+
+        .formations {
+
+        }
+
+        .info {
+
+        }
+
+        .langues {
+
+        }
+
+        .competences {
+
+        }
+
+        .informatique {
+
+        }
+
+        .nom_titre {
+            display: flex;
+            flex-direction: column;
+            padding-left: 5rem;
+            align-items: center; /* Centre sur l'axe horizontal */
+            text-align: center;  /* Centre le texte */
+            justify-content: center;
+        }
+
+        header img {
+            width: 150px;  /* largeur en pixels ou % */
+            height: auto;  /* pour garder les proportions */
+            border-radius: 10%; /* optionnel : pour arrondir la photo */
+            margin-left: 1rem;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="width_426 copie 2.jpg" alt="Ma photo"/>
+            <div class="nom_titre">
+                <h1>Rodolphe MICHEL</h1>
+                <h2>Chef de projet Digital / Développeur Junior</h2>
+            </div>
+        </header>
+
+        <div class="contenu">
+            <aside>
+                <section class="info">
+                    <p>rodolphe.michel@hotmail.com</p>
+                    <p>06 48 80 97 51</p>
+                    <p>69003, Lyon 3</p>
+                    <p>Permis B</p>
+                </section>
+
+                <section class="langues">
+                    <h3>Langues</h3>
+                    <p>Francais - Natif</p>
+                    <p>Anglais - B2</p>
+                    <p>Espagnol - A2</p>
+                </section>
+
+                <section class="competences">
+                    <h3>Compétences</h3>
+                    <ul>
+                        <li>
+                            <h4>Outils et méthodes</h4>
+                            <ul>
+                                <li> Jira, Redmine, Trello</li>
+                                <li>Gantt, KANBAN, RACI</li>
+                                <li>Notion de la méthode Scrum</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>Gestion de projet</h4>
+                            <ul>
+                                <li>TMA & Projet</li>
+                                <li>Gestion des budgets et délais</li>
+                                <li>Staffing des équipes techniques</li>
+                                <li>Suivi de la roadmap</li>
+                                <li>Coordination des parties prenantes</li>
+                                <li>Réunions de COPROJ, COPIL, ...</li>
+                                <li>Gestion des mises en production</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="informatique">
+                    <h3>Informatique</h3>
+                    <ul>
+                        <li>
+                            <h4>Logiciels</h4>
+                            <ul>
+                                <li>Suite Office</li>
+                                <li>Google Workspace</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Systèmes d'exploitation</h4>
+                            <ul>
+                                <li>Windows xp/7/10/11</li>
+                                <li>MacOS</li>
+                                <li>Notion de Linux</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+            <main>
+                <section class="intro">
+                    <p>
+                        Chef de projet fonctionnel au parcours varié, j'ai occupé des postes de développeur,
+                        PMO, assistant chef de projet, puis chef de projet.
+                        Familiarisé avec les outils de gestion de projet et doté de compétences
+                        fonctionnelles sur des plateformes e-commerce, je m'engage dans une démarche
+                        d'évolution continue pour renforcer et élargir mon savoir-faire.
+                    </p>
+                </section>
+
+                <section class="experiences">
+                    <h3> Expériences professionnelles</h3>
+
+                    <ul>
+                        <li>
+                            <h4>Chef de projet / Fonctionnel</h4>
+                            <p>D'octobre 2023 à décembre 2024 TBD Group Lyon</p>
+                            <ul>
+                                <li>Gestion de projets e-commerce (Magento, OroCommerce) et TMA.</li>
+                                <li>Recueil des besoins, rédaction des spécifications fonctionnelles, phase de recette. </li>
+                                <li>Suivi du budget, staffing des ressources, conduite de réunion.</li>
+                                <li>Pilotage des mises en production, suivi de RoadMap.</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>Assistant chef de projet (alternance)</h4>
+                            <p>D'octobre 2022 à octobre 2023 TBD Group Lyon</p>
+                            <ul>
+                                <li>Participation à des projets et des TMA.</li>
+                                <li>Recette, organisation des livraisons et coordination des parties prenantes.</li>
+                                <li>Refonte du workflow de l’outil Redmine pour fluidifier la gestion des tickets.</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>PMO (alternance)</h4>
+                            <p>D'octobre 2021 à septembre 2022 Carrefour SI Lyon</p>
+                            <ul>
+                                <li>Création de templates de reporting, Analyse de KPI, refonte du workflow JIRA.</li>
+                                <li>Coordination des parties prenantes.</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>Développeur (alternance)</h4>
+                            <p>D'octobre 2020 à septembre 2021 CGI Lyon</p>
+                            <ul>
+                                <li>Analyse de code et développement (Java, SQL, PL/SQL).</li>
+                                <li>Tests unitaires.</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section class="formations">
+                    <h3> Diplômes et formations</h3>
+
+                    <ul>
+                        <li>
+                            <h4>Master en gestion de projet</h4>
+                            <p>D'octobre 2021 à octobre 2023 ECEMA Lyon</p>
+                            <ul>
+                                <li>Mémoire sur l'élargissement de l'offre de l'entreprise et l'adaptation aux évolutions du marché.</li>
+                                <li>Gestion de projet : planification, budget, qualité, délais, conduite de réunion.</li>
+                                <li>MS Project, Excel, Gantt.</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>Bachelor Développeur Full-Stack</h4>
+                            <p>D'octobre 2020 à septembre 2021 IPI Lyon</p>
+                            <ul>
+                                <li>Développements Java, Python, PHP et Base de données SQL, NoSQL.</li>
+                                <li>Agile et Scrum.</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>BTS Système Numérique - Electronique et Communication</h4>
+                            <p>De septembre 2018 à juillet 2019 Lycée Victor Hugo Besançon</p>
+                            <ul>
+                                <li>Etude des systèmes électroniques.</li>
+                                <li>Programmation en C.</li>
+                            </ul>
+                        </li>
+                        </ul>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
